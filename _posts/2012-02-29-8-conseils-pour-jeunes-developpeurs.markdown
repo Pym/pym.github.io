@@ -139,4 +139,4 @@ Au final, peu importe l'idée, ce qui compte c'est que vous ayez le sentiment de
 
 ## TL;DR
 
-Développer est une passion, pas un métier. Si vous ne prenez pas de plaisir en codant, vous devriez envisager une reconversion.
+Développer est une passion avant d'être un métier. Si vous ne prenez pas de plaisir en codant, vous devriez envisager une reconversion.
