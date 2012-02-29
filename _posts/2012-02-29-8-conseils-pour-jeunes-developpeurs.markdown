@@ -85,7 +85,7 @@ Un développeur dont les seules sources d'informations sont Korben et PC INpact 
 
 ## 6 ) Intéressez-vous au design, à l'ergonomie et à l'expérience utilisateur
 
-Concevez des produits simples, qui font ceux qu'on leur demande sans rentrer dans le superflus. Ça a l'air tout bête comme ça, mais c'est pourtant un exercice des plus difficiles. 
+Concevez des produits simples, qui font ce qu'on leur demande sans rentrer dans le superflus. Ça a l'air tout bête comme ça, mais c'est pourtant un exercice des plus difficiles. 
 
 Imaginons que l'on donne le sujet suivant à deux équipes de développeurs : "Réalisez un site internet pour commander des billets de train".
 
@@ -121,19 +121,19 @@ P.-S. J'adore le C !
 
 Ce dernier point est le plus important. Si vous réussissez à le satisfaire, vous devriez par la même occasion satisfaire tous les points précédents.
 
-Si vous cherchez une idée et que vous êtes en manque d'inspiration, j'ai une technique imparable pour trouver des projets. Pendant une semaine, notez toutes les choses qui vous énerve ou qui vous frustre. À la fin de la semaine, reprenez votre liste point par point et demandez-vous comment vous pourriez rendre ces choses plus agréables. Des idées devraient rapidement émerger.
+Si vous cherchez une idée et que vous êtes en manque d'inspiration, j'ai une technique imparable pour trouver des projets. Pendant une semaine, notez toutes les choses qui vous énervent ou qui vous frustrent. À la fin de la semaine, reprenez votre liste point par point et demandez-vous comment vous pourriez rendre ces choses plus agréables. Des idées devraient rapidement émerger.
 
 Alors le risque, c'est de commencer à coder un robot capable de faire la vaisselle avant de songer à acheter une machine à laver, donc éliminez les tâches pénibles avec lesquelles tout le monde doit vivre. Ou alors devenez constructeur de robots, mais vous aurez besoin d'un peu plus qu'un ordinateur pour lancer votre activité.
 
-Une alternative — si rien ne sort de votre esprit au bout d'une semaine et pour peu que vous aimiez rendre service — est de demander à des amis ou des proches de s'adonner à la même expérience. Mais en règle générale, ces derniers n'attendent pas que vous leur demandiez s'ils ont des problèmes au quotidien pour vous sollicitez !
+Une alternative — si rien ne sort de votre esprit au bout d'une semaine et pour peu que vous aimiez rendre service — est de demander à des amis ou des proches de s'adonner à la même expérience. Mais en règle générale, ces derniers n'attendent pas que vous leur demandiez s'ils ont des problèmes au quotidien pour vous solliciter !
 
 Idéalement votre projet devra répondre à 3 critères :
 
   * Résoudre un problème qui vous touche directement.
   * Répondre à un besoin auquel ne répond pas une solution existante (ou alors, faites mieux que la solution existante).
-  * Être utile à d'autres personnes qui rencontrent le même problème et qui pourront vous apportez des avis précieux.
+  * Être utile à d'autres personnes qui rencontrent le même problème et qui pourront vous apporter des avis précieux.
 
-Au final, peu importe l'idée, ce qui compte c'est que vous ayez le sentiment de vous amusez et de ne pas travailler quand vous la réaliserez.
+Au final, peu importe l'idée, ce qui compte c'est que vous ayez le sentiment de vous amuser et de ne pas travailler quand vous la réaliserez.
 
 
 
