@@ -47,7 +47,7 @@ Deux jours plus tard, nouveau problème. La personne qui vous a déjà aidé aup
 
 Quelques temps après, rebelotte : "a wild bug appears". Vous vous dites qu'elle détient la solution. Sauf que cette fois-ci, elle vous envoie balader pour une raison simple : en tapant votre bug dans Google, la réponse apparait dans les 3 premiers résultats !
 
-Le problème quand on commence à demander de l'aide (et qu'on nous l'apporte sur un plateau) c'est que l'on peut vite en arriver jusqu'à oublier que l'on peut chercher par soi-même.
+Le problème quand on commence à demander de l'aide (et qu'on nous l'apporte sur un plateau) c'est que l'on peut vite en arriver jusqu'à oublier comment chercher par soi-même.
 
 Apprenez à ne demandez de l'aide que quand vous avez déjà passé du temps à essayer de trouver une solution par vous-même.
 
