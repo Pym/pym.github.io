@@ -3,13 +3,9 @@ layout: post
 title: 8 conseils pour jeunes développeurs
 ---
 
-
-
 Parce que je trouvais que plus ça serait trop et que j'aime bien ce chiffre, voici 8 conseils généraux que devrait suivre tout bon développeur. Ou du moins, ceux qui aspirent à le devenir.
 
 **N. B.** Ceci n'est pas un article technique.
-
-
 
 ## 1 ) Ne vous trompez pas de voie
 
@@ -25,8 +21,6 @@ On retrouve ce genre de profils en école — et par la suite dans le monde du t
 
 Si votre motivation principale est l'argent, vous ne ferez jamais un bon développeur (ou autre métier qui requiert une once de créativité). Alors laissez ce boulot à ceux qui ont une bonne raison de le faire et commencez à chercher quelque chose que vous aimez vraiment.
 
-
-
 ## 2 ) Soyez curieux (et restez-le)
 
 Ou alors envisagez de changer de métier. Sérieusement.
@@ -36,8 +30,6 @@ Trop peu de personnes le réalisent, mais en tant que développeur votre apprent
 Si vous ne vous revendiquez pas comme quelqu'un de curieux et si vous estimez que vos connaissances actuelles vous suffisent, alors encore une fois : ce job n'est pas pour vous.
 
 Et puisque ça ne fait pas de mal de s'intéresser à d'autres domaines que la programmation, penchez-vous aussi sur d'autres secteurs ! Le management, l'ergonomie ou encore l'administration système (à petites doses) sont de fabuleux sujets transverses à étudier et qui vous aideront au quotidien.
-
-
 
 ## 3 ) Apprenez à être autonome
 
@@ -55,8 +47,6 @@ Gardez en tête que tous les problèmes sur lesquels on tombent ont déjà été
 
 Au passage [Stack Overflow](http://stackoverflow.com/) et les sites de [Stack Exchange](http://stackexchange.com/sites) sont de **très bons endroits** pour trouver de l'aide.
 
-
-
 ## 4 ) Devenez bilingue
 
 Codez en anglais, commentez en anglais, commitez en anglais.
@@ -69,8 +59,6 @@ Parce que oui, c'est un fait : **les bons développeurs font tout en anglais**. 
 
 *Notez que cet article est en français uniquement parce qu'il s'adresse à des juniors et non par flemme.*
 
-
-
 ## 5 ) Faites de la veille
 
 Si vous êtes en train de lire ces lignes, c'est probablement que c'est déjà un peu le cas. Bravo !
@@ -80,8 +68,6 @@ Actuellement, la meilleure source d'informations que vous pouvez trouvez en tant
 Lire des sites d'actualités qui vous prémâchent tout, c'est bien. Aller chercher l'information à sa source pour se faire sa propre idée, c'est mieux.
 
 Un développeur dont les seules sources d'informations sont Korben et PC INpact ne peut pas être pris au sérieux.
-
-
 
 ## 6 ) Intéressez-vous au design, à l'ergonomie et à l'expérience utilisateur
 
@@ -101,8 +87,6 @@ J'ai passé un an dans une société où j'entendais en permanence parler des fo
 
 Aimez les choses bien faites et créez des produits que vous prendriez plaisir à utiliser tous les jours !
 
-
-
 ## 7 ) Restez ouvert d'esprit et ne vous attachez pas à une technologie
 
 Parce que de toute façon, elle sera obsolète d'ici quelques années !
@@ -114,8 +98,6 @@ Oui, vous avez le droit d'être bon sur une techno ou un langage. Mais sachez au
 Et puis au moins, vous ne finirez pas comme ces vieux profs qui enseignent encore aujourd'hui mais qui semblent coincés à l'apogée du C dans les années 80.
 
 P.-S. J'adore le C !
-
-
 
 ## 8 ) Ayez un projet personnel qui vous tienne à coeur
 
@@ -134,8 +116,6 @@ Idéalement votre projet devra répondre à 3 critères :
   * Être utile à d'autres personnes qui rencontrent le même problème et qui pourront vous apporter des avis précieux.
 
 Au final, peu importe l'idée, ce qui compte c'est que vous ayez le sentiment de vous amuser et de ne pas travailler quand vous la réaliserez.
-
-
 
 ## TL;DR
 
