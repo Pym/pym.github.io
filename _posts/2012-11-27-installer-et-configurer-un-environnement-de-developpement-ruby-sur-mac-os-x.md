@@ -7,9 +7,17 @@ title: Installer et configurer un environnement de développement Ruby sur Mac 
 
 Ces derniers temps, j'observe beaucoup de développeurs dans mon entourage voulant s'essayer à Ruby et/ou Rails. Je ne sais pas si c'est grâce à mon lobbying intensif ou si c'est parce que les gens commencent enfin à se rendre compte que **PHP est un langage moisit**, mais on ne va pas se plaindre.
 
-Toujours est-il que quand on a toujours fait du LAMP/MAMP, il peut-être un peu difficile de son plonger dans un écosystème totalement différent. Heureusement, le but de cet article est de vous aider dans cette voie !
+Toujours est-il que quand on a toujours fait du LAMP/MAMP, il peut-être un peu difficile de se plonger dans un écosystème totalement différent. Heureusement, le but de cet article est de vous aider dans cette voie !
 
-**N. B.** Cet article n'a pas vocation à vous convaincre que Ruby c'est bien ou que Ruby c'est mieux. Il s'adresse donc surtout à des personnes déjà convaincues qui cherchent à mettre la main à la patte rapidement. **Et qui ont un Mac**. Pour les pauvres, *désolé*.
+Aujourd'hui, je vais donc vous expliquer en détail comment reproduire **MON** environnement de développement Ruby (et j'insiste sur le côté totalement subjectif de cet article).
+
+D'ailleurs, certains des outils que je vais vous présenter sont totalement facultatifs (pour ne pas dire tous). Mais dans notre cas, le but est de mettre en place un environnement durable et agréable à utiliser. Bref, un truc qui nous simplifiera la vie au quotidien.
+
+Et c'est exactement ce que vous propose ce tutoriel, à suivre **dans l'ordre**.
+
+**N. B. 1** Cet article n'a pas vocation à vous convaincre que Ruby c'est bien ou que Ruby c'est mieux. Il s'adresse donc surtout à des personnes déjà convaincues qui cherchent à mettre la main à la patte rapidement. **Et qui ont un Mac**. Pour les pauvres, *désolé*.
+
+**N. B. 2** En vrai, seules les parties 1, 2, 4 et 6 sont réellement réservées aux Mac users. Le reste de ce tutoriel est facilement adaptable aux autres systèmes UNIX.
 
 1. [Command Line Tools for Xcode](#s1)
 2. [iTerm 2](#s2)
@@ -44,7 +52,7 @@ Adoptez-le et on passe à la suite !
 
 ## 3) <a id="s3"></a> zsh & oh-my-zsh
 
-zsh est un shell Unix avec [plein de features chouettes](http://en.wikipedia.org/wiki/Z_shell#Features) : la complétion et la correction des commandes, un historique partagé entre les sessions, etc.
+[zsh](http://www.zsh.org/) est un shell Unix avec [plein de features chouettes](http://en.wikipedia.org/wiki/Z_shell#Features) : la complétion et la correction des commandes, un historique partagé entre les sessions, etc.
 
 Mais sa véritable puissance se révèle avec [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) et ses plugins :
 
@@ -62,7 +70,7 @@ En plus, le script se chargera même de remplacer votre shell par défaut !
 
 ### Configuration
 
-Une fois oh-my-zsh installé, vous trouverez un fichier `.zshrc` dans votre home. Il s'agit du fichier de configuration de zsh (l'équivalent de `.bashrc` pour bash).
+Une fois oh-my-zsh installé, vous trouverez un fichier `.zshrc` dans votre home. Il s'agit du fichier de configuration de zsh (l'équivalent de `.bashrc` pour Bash).
 
 On éditera ce fichier au fur et à mesure de l'avancement, donc soyez attentifs. En attendant, jetez un oeil au fichier et regardez comme il est joliment commenté !
 
@@ -220,7 +228,7 @@ Suite à quoi il faudra redémarrer Pow :
 
     $ touch ~/.pow/restart.txt
 
-Ainsi, Pow utilisera la version de Ruby définit par rbenv, ainsi que les gens associées ! Elle est pas belle la vie ?
+Ainsi, Pow utilisera la version de Ruby définie par rbenv et les gems associées ! Elle est pas belle la vie ?
 
 ### Powder
 
@@ -238,7 +246,7 @@ Et maintenant pour lier une application au domaine local `.dev` correspondant, o
 
 *And it's done.*
 
-Powder rend vraiment l'utilisation de Pow juste **magique**. Pensez à faire un `powder -h` pour voir tout ce qu'il apporte.
+Powder rend l'utilisation de Pow vraiment **magique**. Pensez à faire un `powder -h` pour voir tout ce qu'il apporte.
 
 ### Bonus : Anvil
 
@@ -260,6 +268,46 @@ On suit les conseils de Josh et on installe Pry (avec pry-doc) de la façon suiv
 
     $ gem install pry pry-doc --no-rdoc --no-ri
 
-### Utilisation
+### Exemple d'utilisation
 
-Mais puisqu'on vous dit d'aller mater le [screencast](http://pryrepl.org/screencasts.html) !
+On exécute Pry :
+
+    $ pry
+
+On crée une string `s` :
+
+    [1] pry(main)> s = "! tsacneercs el retam rella'd tid suov no'uqsiup siaM"
+    => "! tsacneercs el retam rella'd tid suov no'uqsiup siaM"
+
+On cherche une méthode qui pourrait nous être utile avec `find-method` :
+
+    [2] pry(main)> find-method reverse s
+    String
+    String#reverse
+    String#reverse!
+
+On se rencarde sur la méthode trouvée avec `show-doc` :
+
+    [3] pry(main)> show-doc s.reverse
+
+    From: string.c (C Method):
+    Number of lines: 3
+    Owner: String
+    Visibility: public
+    Signature: reverse()
+
+    Returns a new string with the characters from str in reverse order.
+
+       "stressed".reverse   #=> "desserts"
+
+Et on fait ce que nous dit le monsieur :
+
+    [4] pry(main)> puts s.reverse
+    Mais puisqu'on vous dit d'aller mater le screencast !
+    => nil
+
+## Conclusion
+
+Si vous avez tenu jusqu'à la fin et suivi de manière attentionnée ce tutoriel, vous disposez dès à présent de l'environnement clean et fonctionnel du parfait hipster Rubyiste. Bravo !
+
+Des remarques ? Des questions ? Ou mieux : des outils à partager ? Les commentaires sont là pour ça ! :)
