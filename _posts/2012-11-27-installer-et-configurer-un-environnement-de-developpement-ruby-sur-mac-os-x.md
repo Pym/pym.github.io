@@ -84,7 +84,7 @@ Si vous cherchez un thème sexy pour oh-my-zsh, essayez [Powerline](https://gith
 
 > The missing package manager for OS X
 
-[Homebrew](http://mxcl.github.com/homebrew/) est **LE** gestionnaire de paquets pour OS X. Le seul. Si vous en utilisiez un autre jusque là, voici les liens des procédures de désinstallation pour [MacPorts](http://guide.macports.org/chunked/installing.macports.uninstalling.html) et [Fink](http://www.finkproject.org/faq/usage-fink.php).
+[Homebrew](http://mxcl.github.com/homebrew/) est **LE** gestionnaire de paquets pour OS X. Le seul. Si vous en utilisiez un autre jusque-là, voici les liens des procédures de désinstallation pour [MacPorts](http://guide.macports.org/chunked/installing.macports.uninstalling.html) et [Fink](http://www.finkproject.org/faq/usage-fink.php).
 
 ### Installation
 
@@ -217,7 +217,7 @@ Après l'installation d'une nouvelle version de Ruby, la commande `rbenv rehash`
 
 ### Installation
 
-Comme pour la plupart des autres outils que l'on a utilisé jusque là, une ligne suffit :
+Comme pour la plupart des autres outils que l'on a utilisé jusque-là, une ligne suffit :
 
     $ curl get.pow.cx | sh
 
