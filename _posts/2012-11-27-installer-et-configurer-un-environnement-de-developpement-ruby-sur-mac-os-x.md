@@ -234,7 +234,7 @@ On peut configurer [pas mal de choses](http://pow.cx/manual.html#section_3) dans
 
 Dans notre cas, il y en a surtout une qui nous intéresse. En effet, on utilise rbenv. Mais le truc, c'est que Pow n'en a aucune idée… Au point où il utilisera la version système de Ruby si on ne lui dit rien !
 
-La solution est très simple, on créé donc un ficher `.powconfig` dans notre répertoire utilisateur dans lequel on ajoute :
+La solution est très simple, on crée donc notre `.powconfig` dans notre répertoire utilisateur dans lequel on ajoute :
 
     export PATH=$(rbenv root)/shims:$(rbenv root)/bin:$PATH
 
