@@ -217,7 +217,7 @@ Après l'installation d'une nouvelle version de Ruby, la commande `rbenv rehash`
 
 ### Installation
 
-Comme pour la plupart des autres outils qu'on a utilisé jusque là, une ligne suffit :
+Comme pour la plupart des autres outils que l'on a utilisé jusque là, une ligne suffit :
 
     $ curl get.pow.cx | sh
 
@@ -230,11 +230,11 @@ Et vous pourrez voir directement votre application tourner sur `myapp.dev`. Mêm
 
 ### Configuration
 
-On peut configurer [pas mal de choses](http://pow.cx/manual.html#section_3) dans Pow en créant un `.powconfig` dans notre répertoire utilisateur.
+On peut configurer [pas mal de choses](http://pow.cx/manual.html#section_3) dans Pow en créant un fichier `.powconfig` dans notre répertoire utilisateur.
 
-Dans notre cas, il y en a surtout une qui nous intéresse. En effet, on utilise rbenv. Le truc, c'est que Pow n'en a aucune idée. Au point où il utilisera la version système de Ruby si on ne lui dit rien !
+Dans notre cas, il y en a surtout une qui nous intéresse. En effet, on utilise rbenv. Mais le truc, c'est que Pow n'en a aucune idée… Au point où il utilisera la version système de Ruby si on ne lui dit rien !
 
-Mais la solution est très simple, on créé donc un ficher `.powconfig` dans notre répertoire utilisateur dans lequel on ajoute :
+La solution est très simple, on créé donc un ficher `.powconfig` dans notre répertoire utilisateur dans lequel on ajoute :
 
     export PATH=$(rbenv root)/shims:$(rbenv root)/bin:$PATH
 
@@ -242,7 +242,7 @@ Suite à quoi il faudra redémarrer Pow :
 
     $ touch ~/.pow/restart.txt
 
-Ainsi, Pow utilisera la version de Ruby définie par rbenv et les gems associées ! Elle est pas belle la vie ?
+Ainsi, Pow utilisera la version de Ruby définie par rbenv et les [gems](http://en.wikipedia.org/wiki/RubyGems) associées ! Elle est pas belle la vie ?
 
 ### Powder
 
@@ -254,7 +254,7 @@ On l'installe donc via un simple :
 
     $ gem install powder
 
-Et maintenant pour lier une application au domaine local `.dev` correspondant, on se place dans le répertoire de l'app et on fait un :
+Maintenant, pour lier une application au domaine local `.dev` correspondant, on se place dans le répertoire de l'app et on fait un :
 
     $ powder link
 
@@ -288,12 +288,12 @@ On exécute Pry :
 
     $ pry
 
-On crée une string `s` :
+On crée une string `s` en tapant au hasard sur le clavier :
 
     [1] pry(main)> s = "! tsacneercs el retam rella'd tid suov no'uqsiup siaM"
     => "! tsacneercs el retam rella'd tid suov no'uqsiup siaM"
 
-On cherche une méthode qui pourrait nous être utile avec `find-method` :
+On cherche une méthode qui pourrait nous être utile avec `find-method` (au hasard, `reverse`) :
 
     [2] pry(main)> find-method reverse s
     String
