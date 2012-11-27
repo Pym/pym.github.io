@@ -33,7 +33,7 @@ Et c'est exactement ce que vous propose ce tutoriel, à suivre **dans l'ordre**.
 
 L'étape indispensable (et susceptible de prendre un peu de temps) est l'installation des Command Line Tools for Xcode. C'est un gros package contenant l'ensemble des outils qui vont nous être utiles pour la suite.
 
-> This package enables UNIX-style development via Terminal by installing command line developer tools, as well as Mac OS X SDK frameworks and headers. Many useful tools are included, such as the Apple LLVM compiler, linker, and Make. If you use Xcode, these tools are also embedded within the Xcode IDE, 
+> This package enables UNIX-style development via Terminal by installing command line developer tools, as well as Mac OS X SDK frameworks and headers. Many useful tools are included, such as the Apple LLVM compiler, linker, and Make. If you use Xcode, these tools are also embedded within the Xcode IDE,
 and can be installed on your system using the Downloads preferences pane within Xcode 4.5.
 
 À noter que pour peu que vous ayez déjà développé sur Mac, il y a de grandes chances pour que vous ayez déjà installé la suite.
@@ -159,6 +159,18 @@ On ouvre son terminal et on installe les 2 formules suivantes :
     $ brew install rbenv
     $ brew install ruby-build
 
+#### Configuration zsh
+
+Au choix, à faire dans votre `.zshrc` :
+
+- Activez le [plugin rbenv](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/rbenv/rbenv.plugin.zsh) (qui ajoute aussi d'autres choses)
+
+**OU**
+
+- Rendez-vous à la fin du fichier et ajoutez sur une nouvelle ligne :
+
+      if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
 ### Installation de Ruby
 
 On commence par lister les versions disponibles avec rbenv :
@@ -186,7 +198,7 @@ Enfin on définit la version globale de Ruby à utiliser par défaut :
 
 Et on vérifie que tout s'est bien passé :
 
-	$ ruby -v
+    $ ruby -v
     ruby 1.9.3p327 (2012-11-10 revision 37606) [x86_64-darwin12.2.0]
 
 ### Nota bene
