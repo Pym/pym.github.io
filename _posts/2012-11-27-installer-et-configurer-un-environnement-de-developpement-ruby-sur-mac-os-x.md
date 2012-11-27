@@ -7,7 +7,7 @@ title: Installer et configurer un environnement de développement Ruby sur Mac 
 
 Ces derniers temps, j'observe beaucoup de développeurs dans mon entourage voulant s'essayer à Ruby et/ou Rails. Je ne sais pas si c'est grâce à mon lobbying intensif ou si c'est parce que les gens commencent enfin à se rendre compte que **PHP est un langage moisit**, mais on ne va pas se plaindre.
 
-Toujours est-il que quand on a toujours fait du LAMP/MAMP, il peut-être un peu difficile de se plonger dans un écosystème totalement différent. Heureusement, le but de cet article est de vous aider dans cette voie !
+Toujours est-il que quand on a toujours fait du LAMP/MAMP, il peut être un peu difficile de se plonger dans un écosystème totalement différent. Heureusement, le but de cet article est de vous aider dans cette voie !
 
 Aujourd'hui, je vais donc vous expliquer en détail comment reproduire **MON** environnement de développement Ruby (et j'insiste sur le côté totalement subjectif de cet article).
 
@@ -31,7 +31,7 @@ Et c'est exactement ce que vous propose ce tutoriel, à suivre **dans l'ordre**.
 
 ## 1) <a id="s1"></a> Command Line Tools for Xcode
 
-L'étape indispensable (et susceptible de prendre un peu de temps) est l'installation des Command Line Tools. C'est un gros package contenant l'ensemble des outils qui vont nous être utiles pour la suite.
+L'étape indispensable (et susceptible de prendre un peu de temps) est l'installation des Command Line Tools for Xcode. C'est un gros package contenant l'ensemble des outils qui vont nous être utiles pour la suite.
 
 > This package enables UNIX-style development via Terminal by installing command line developer tools, as well as Mac OS X SDK frameworks and headers. Many useful tools are included, such as the Apple LLVM compiler, linker, and Make. If you use Xcode, these tools are also embedded within the Xcode IDE, 
 and can be installed on your system using the Downloads preferences pane within Xcode 4.5.
