@@ -19,6 +19,8 @@ Et c'est exactement ce que vous propose ce tutoriel, à suivre **dans l'ordre**.
 
 **N. B. 2** En vrai, seules les parties 1, 2, 4 et 6 sont réellement réservées aux Mac users. Le reste de ce tutoriel est facilement adaptable aux autres systèmes UNIX.
 
+### Sommaire
+
 1. [Command Line Tools for Xcode](#s1)
 2. [iTerm 2](#s2)
 3. [zsh & oh-my-zsh](#s3)
@@ -82,7 +84,7 @@ Si vous cherchez un thème sexy pour oh-my-zsh, essayez [Powerline](https://gith
 
 > The missing package manager for OS X
 
-[Homebrew](http://mxcl.github.com/homebrew/) est **LE** gestionnaire de paquets pour OS X. Le seul. Si vous en utilisiez un autre jusque là, voici les liens des procédures de désinstallation pour [MacPorts](http://guide.macports.org/chunked/installing.macports.uninstalling.html) et [Flink](http://www.finkproject.org/faq/usage-fink.php).
+[Homebrew](http://mxcl.github.com/homebrew/) est **LE** gestionnaire de paquets pour OS X. Le seul. Si vous en utilisiez un autre jusque là, voici les liens des procédures de désinstallation pour [MacPorts](http://guide.macports.org/chunked/installing.macports.uninstalling.html) et [Fink](http://www.finkproject.org/faq/usage-fink.php).
 
 ### Installation
 
@@ -187,9 +189,9 @@ Et on vérifie que tout s'est bien passé :
 	$ ruby -v
     ruby 1.9.3p327 (2012-11-10 revision 37606) [x86_64-darwin12.2.0]
 
-### Bonus
+### Nota bene
 
-Après l'installation d'une nouvelle version de Ruby, la commande `rbenv rehash` est lancée automatiquement. Cette commande (qui sert à installer les `shims`) est à lancer à chaque fois que vous installerez une gem qui contient des binaires.
+Après l'installation d'une nouvelle version de Ruby, la commande `rbenv rehash` est lancée automatiquement. Cette commande (qui sert à installer les `shims`) est à lancer à chaque fois que vous installerez une gem qui contiendra des binaires.
 
 ## 6) <a id="s6"></a> Pow
 
