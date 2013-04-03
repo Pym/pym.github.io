@@ -3,7 +3,7 @@ layout: post
 title: Reconnaitre et gérer un mauvais manager
 ---
 
-Les mauvais managers. Ces collaborateurs mal-aimés que personne n'apprécie, exceptés leur n+1 (sinon ils ne seraient pas à leur poste) et les gens qui n'ont jamais eu à travailler avec eux.
+Les mauvais managers : ces collaborateurs mal-aimés que personne n'apprécie, exceptés leur n+1 (sinon ils ne seraient pas à leur poste) et les gens qui n'ont jamais eu à travailler avec eux.
 
 Apprendre à les connaitre, c'est apprendre à se prévenir de situations qui pourraient se révéler handicapantes dans un futur proche.
 
