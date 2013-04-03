@@ -77,7 +77,7 @@ Comprendre : "Toi **tu n'es pas manager**, donc **tu ne sais pas**. Tiens, je t'
 
 > [Chef] – Quand ton chef il te dit "moi je le perçois comme ça", c'est que c'est vrai quoi. T'as pas à remettre ça en cause. Tu comprends ça ? C'est à dire que c'est moi qui ait raison quoi.
 
-Votre chef a **toujours raison**, même quand il a tord.
+Votre chef a **toujours raison**, même quand il a tort.
 
 ### Il donne des ordres
 
