@@ -1,4 +1,7 @@
-# Ces managers mal-aimés
+---
+layout: post
+title: Ces managers mal-aimés
+---
 
 Les mauvais managers. Ces collaborateurs que personne n'apprécie, exceptés leur n+1 (sinon ils ne seraient pas à leur poste) et les gens qui n'ont jamais eu à travailler avec eux.
 
