@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Ces managers mal-aimés
+title: Reconnaitre et gérer un mauvais manager
 ---
 
-Les mauvais managers. Ces collaborateurs que personne n'apprécie, exceptés leur n+1 (sinon ils ne seraient pas à leur poste) et les gens qui n'ont jamais eu à travailler avec eux.
+Les mauvais managers. Ces collaborateurs mal-aimés que personne n'apprécie, exceptés leur n+1 (sinon ils ne seraient pas à leur poste) et les gens qui n'ont jamais eu à travailler avec eux.
 
 Apprendre à les connaitre, c'est apprendre à se prévenir de situations qui pourraient se révéler handicapantes dans un futur proche.
 
@@ -43,7 +43,7 @@ En clair, **il ne fait pas confiance à son équipe**.
 
 Exemple vécu :
 
-> [Moi] – Hey chef ! J'aimerais bien en apprendre un peu plus sur le domaine pour lequel on édite des super logiciels. Je pense que ça m'aiderait grandement à comprendre les besoins de nos utilisateurs et à être force de proposition.  
+> [Moi] – Hey chef ! J'aimerais bien en apprendre un peu plus sur le domaine pour lequel on édite des super logiciels. Je pense que ça m'aiderait grandement à comprendre les besoins de nos utilisateurs et à être force de proposition.
 > [Chef] – Non. Tu n'as pas besoin de connaitre le métier pour coder les fonctionnalités qu'on te demande. Arrête de perdre ton temps.
 
 *Une semaine plus tard…*
