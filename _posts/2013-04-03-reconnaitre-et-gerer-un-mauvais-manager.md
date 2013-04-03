@@ -15,7 +15,7 @@ Apprendre à les connaitre, c'est apprendre à se prévenir de situations qui po
 
 > [Chef] – Les horaires, c'est les horaires !
 
-Il tapote sa montre du doigt quand vous arrivez à 9h02, histoire de te mettre un petit coup de pression dès le matin. Il a même un petit carnet dans lequel il inscrit l'heure à laquelle vous allumez votre écran.
+Il tapote sa montre du doigt quand vous arrivez à 9h02, histoire de mettre un petit coup de pression dès le matin. Il a même un petit carnet dans lequel il inscrit l'heure à laquelle vous allumez votre écran.
 
 ### Pour lui, l'implication dans le travail c'est rester tard le soir
 
@@ -39,7 +39,7 @@ Il a énormément de mal à déléguer dès que ça devient un peu important. Et
 
 En clair, **il ne fait pas confiance à son équipe**.
 
-### Il te reproche de ne pas faire ce qu'il ne voulait pas que vous fassiez une semaine avant
+### Il vous reproche de ne pas faire ce qu'il ne voulait pas que vous fassiez une semaine avant
 
 Exemple vécu :
 
@@ -67,7 +67,7 @@ Selon ce principe, "tout employé tend à s'élever à son niveau d'incompétenc
 
 Un bon développeur ne fera pas forcément un bon manager (et un mauvais développeur non plus). Manager une équipe est quelque chose qui s'apprend.
 
-### Il te rappelle bien que c'est lui le chef
+### Il vous rappelle bien que c'est lui le chef
 
 > [Chef] – Moi je suis manager tu vois, donc je sais mesurer ça.
 
