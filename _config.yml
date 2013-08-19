@@ -1,6 +1,34 @@
-markdown: rdiscount
-pygments: true
+# Bootkyll configuration
+# ----------------------
+#
+name: Pym.me
+short_description: '“ I used to be a developer like you, then I took an arrow in the knee. ”'
+meta_description: "Welcome to my blog! You can call me Pym. I'm a Ruby lover, lucid dreamer and also a flat design enthousiast. Have fun reading me!"
+url: http://pym.me
+feed_url: http://feed.pym.me
+theme: cerulean # choose one between: amelia, cosmo, flatly, readable, slate, superhero, cerulean, cyborg, journal, simplex, spacelab, united
+image_border_color: '#317EAC' # @orange from superhero theme
+contact_email: pym@pym.me
+authors:
+  admin:
+    display_name: Pym
+    gravatar_md5: 45b3e5b638912fd5552fb74c283cd2a5
+analytics:
+  enabled: true
+  id: UA-6852835-4
+  url: pym.me
+disqus:
+  enabled: true
+  shortname: pym-me
+twitter:
+  enabled: true
+  lang: fr
+  username: Pym
+  hashtags: [pym]
+
+# Jekyll configuration
+# --------------------
+# see: http://jekyllrb.com/docs/configuration/
+#
+exclude: [components, bower.json, CNAME]
 permalink: /posts/:title
-auto: true
-rdiscount:
-  extensions: [smart]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Reconnaitre et gérer un mauvais manager
+author: admin
 ---
 
 Les mauvais managers : ces collaborateurs mal-aimés que personne n'apprécie, exceptés leur n+1 (sinon ils ne seraient pas à leur poste) et les gens qui n'ont jamais eu à travailler avec eux.
@@ -13,23 +14,23 @@ Apprendre à les connaitre, c'est apprendre à se prévenir de situations qui po
 
 ### Il est obsédé par les horaires
 
-> [Chef] – Les horaires, c'est les horaires !
+> \[Chef\] – Les horaires, c'est les horaires !
 
 Il tapote sa montre du doigt quand vous arrivez à 9h02, histoire de mettre un petit coup de pression dès le matin. Il a même un petit carnet dans lequel il inscrit l'heure à laquelle vous allumez votre écran.
 
 ### Pour lui, l'implication dans le travail c'est rester tard le soir
 
-> [Chef] – Moi j'vais te dire à ton âge mon vieux, quand j'étais dans mon premier job, j'ai bossé jusqu'à 9h du soir dans les entreprises où j'étais. Et les mecs ils m'ont payé zéro euro. Et j'dis pas ça pour me la raconter, j'dis ça parce que c'est la vérité.
+> \[Chef\] – Moi j'vais te dire à ton âge mon vieux, quand j'étais dans mon premier job, j'ai bossé jusqu'à 9h du soir dans les entreprises où j'étais. Et les mecs ils m'ont payé zéro euro. Et j'dis pas ça pour me la raconter, j'dis ça parce que c'est la vérité.
 
 *clap, clap…*
 
 > Workaholics aren’t heroes. They don’t save the day, they just use it up. The real hero is already home because he figured out a faster way to get things done.
-
-– Jason Fried & David Heinemeier Hansson, Rework
+>
+> <small>Jason Fried &amp; David Heinemeier Hansson, Rework</small>
 
 ### Pour lui, un développeur ça doit coder 8h par jour
 
-> [Chef] – Moi dans la journée, j'vais même pas sur Google tellement j'ai de trucs à faire.
+> \[Chef\] – Moi dans la journée, j'vais même pas sur Google tellement j'ai de trucs à faire.
 
 Alors que vous bien sûr, vous passez votre journée à retweeter des vidéos de lolcats et à trainer sur les blogs de l'internet.
 
@@ -43,12 +44,13 @@ En clair, **il ne fait pas confiance à son équipe**.
 
 Exemple vécu :
 
-> [Moi] – Hey chef ! J'aimerais bien en apprendre un peu plus sur le domaine pour lequel on édite des super logiciels. Je pense que ça m'aiderait grandement à comprendre les besoins de nos utilisateurs et à être force de proposition.  
-> [Chef] – Non. Tu n'as pas besoin de connaitre le métier pour coder les fonctionnalités qu'on te demande. Arrête de perdre ton temps.
+> \[Moi\] – Hey chef ! J'aimerais bien en apprendre un peu plus sur le domaine pour lequel on édite des super logiciels. Je pense que ça m'aiderait grandement à comprendre les besoins de nos utilisateurs et à être force de proposition.
+>
+> \[Chef\] – Non. Tu n'as pas besoin de connaitre le métier pour coder les fonctionnalités qu'on te demande. Arrête de perdre ton temps.
 
 *Une semaine plus tard…*
 
-> [Chef] – Moi et d'autres avons relevé que t'étais pas super efficace pendant la semaine précédente. On note également que tu ne t'impliques pas dans notre boulot et ça, ça porte préjudice à l'ensemble de l'équipe.
+> \[Chef\] – Moi et d'autres avons relevé que t'étais pas super efficace pendant la semaine précédente. On note également que tu ne t'impliques pas dans notre boulot et ça, ça porte préjudice à l'ensemble de l'équipe.
 
 *Are you fucking kidding me?*
 
@@ -60,7 +62,8 @@ Quitte à rester enfermés toute une journée dans une pièce à discuter pour e
 
 ### Il répond au Principe de Peter
 
-> Le Principe de Peter, également appelé "syndrome de la promotion Focus" de Laurence J. Peter et Raymond Hull, est un principe relatif à l'organisation hiérarchique. […]
+> Le Principe de Peter, également appelé "syndrome de la promotion Focus" de Laurence J. Peter et Raymond Hull, est un principe relatif à l'organisation hiérarchique. \[…\]
+
 Selon ce principe, "tout employé tend à s'élever à son niveau d'incompétence".
 
 *Pour le reste, [il y a Wikipédia](http://fr.wikipedia.org/wiki/Principe_de_Peter).*
@@ -69,13 +72,13 @@ Un bon développeur ne fera pas forcément un bon manager (et un mauvais dévelo
 
 ### Il vous rappelle bien que c'est lui le chef
 
-> [Chef] – Moi je suis manager tu vois, donc je sais mesurer ça.
+> \[Chef\] – Moi je suis manager tu vois, donc je sais mesurer ça.
 
 Comprendre : "Toi **tu n'es pas manager**, donc **tu ne sais pas**. Tiens, je t'ai dit que c'est moi le chef ?"
 
 ### Il n'accepte pas la critique
 
-> [Chef] – Quand ton chef il te dit "moi je le perçois comme ça", c'est que c'est vrai quoi. T'as pas à remettre ça en cause. Tu comprends ça ? C'est à dire que c'est moi qui ait raison quoi.
+> \[Chef\] – Quand ton chef il te dit "moi je le perçois comme ça", c'est que c'est vrai quoi. T'as pas à remettre ça en cause. Tu comprends ça ? C'est à dire que c'est moi qui ait raison quoi.
 
 Votre chef a **toujours raison**, même quand il a tort.
 
@@ -124,5 +127,5 @@ Il respecte énormément son chef et il veut être respecté de la même manièr
 En cas de conflit, laissez-lui le dernier mot, il sera content.
 
 > Listen, smile, agree, and then do whatever the fuck you were gonna do anyway.
-
-*– Robert Downey Jr.*
+>
+> <small>Robert Downey Jr</small>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Comment Apple vous force à acheter votre iPhone 5 dans un Apple Store
+author: admin
 ---
 
 Il est midi quand je commence à rédiger cet article et voici ce que l'on peut voir sur la [page de l'Apple Store](http://store.apple.com/fr/browse/home/shop_iphone/family/iphone/iphone5) de commande de l'iPhone 5 :
@@ -23,7 +24,7 @@ Apple veut que vous alliez faire la queue devant un Apple Store, **à 8h**. Pas 
 
 *Vous entends-je crier derrière votre écran !*
 
-Oui, l'iPhone 5 est probablement "véritablement" déjà en rupture, vous avez raison… 
+Oui, l'iPhone 5 est probablement "véritablement" déjà en rupture, vous avez raison…
 
 Après tout, quoi de plus magnifique comme publicité gratuite pour Apple que de pouvoir lire partout qu'il n'y avait plus de stocks moins d'une heure et demi après l'ouverture des commandes ?
 

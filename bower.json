@@ -1,0 +1,18 @@
+{
+  "name": "bootkyll",
+  "version": "0.1.0",
+  "authors": [
+    "Pym <github@eggiz.org>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootswatch": "git://github.com/thomaspark/bootswatch.git#~2.3.2"
+  }
+}

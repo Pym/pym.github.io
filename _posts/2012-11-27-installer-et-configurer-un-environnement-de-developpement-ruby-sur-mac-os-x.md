@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Installer et configurer un environnement de développement Ruby sur Mac OS X
+author: admin
 ---
-
-## Introduction
 
 Ces derniers temps, j'observe beaucoup de développeurs dans mon entourage voulant s'essayer à Ruby et/ou Rails. Je ne sais pas si c'est grâce à mon lobbying intensif ou si c'est parce que les gens commencent enfin à se rendre compte que **PHP est un langage moisi**, mais on ne va pas se plaindre.
 
@@ -29,7 +28,7 @@ Et c'est exactement ce que vous propose ce tutoriel, à suivre **dans l'ordre**.
 6. [Pow](#s6)
 7. [Pry](#s7)
 
-## 1) <a id="s1"></a> Command Line Tools for Xcode
+## 1) Command Line Tools for Xcode {#s1}
 
 L'étape indispensable (et susceptible de prendre un peu de temps) est l'installation des Command Line Tools for Xcode. C'est un gros package contenant l'ensemble des outils qui vont nous être utiles pour la suite.
 
@@ -44,7 +43,7 @@ D'ailleurs, si vous avez Xcode (et que votre version est à jour, c'est importan
 
 Pour les autres, il vous faudra un compte développeur Apple (gratuit), puis vous rendre sur [la page des téléchargements](https://developer.apple.com/downloads/). Une fois là bas, sélectionnez la version des Command Line Tools correspondant à votre OS (Lion ou Mountain Lion).
 
-## 2) <a id="s2"></a> iTerm 2
+## 2) iTerm 2 {#s2}
 
 [iTerm 2](http://www.iterm2.com/) est un remplaçant du Terminal fournit par défaut avec Mac OS X qui apporte tout un tas de fonctionnalités supplémentaires totalement indispensables : un vrai split pane (avec différentes sessions), la recherche, l'instant replay ou encore la possibilité de docker la fenêtre en haut ou en bas de l'écran et de lui assigner une hotkey (à la [TotalTerminal](http://totalterminal.binaryage.com/)). Plutôt qu'un long discours, je vous invite à consulter [la liste des features](http://www.iterm2.com/#/section/features).
 
@@ -52,7 +51,7 @@ Je vous conseille de chopper [la version beta](http://code.google.com/p/iterm2/d
 
 Adoptez-le et on passe à la suite !
 
-## 3) <a id="s3"></a> zsh & oh-my-zsh
+## 3) zsh & oh-my-zsh {#s3}
 
 [zsh](http://www.zsh.org/) est un shell Unix avec [plein de features chouettes](http://en.wikipedia.org/wiki/Z_shell#Features) : la complétion et la correction des commandes, un historique partagé entre les sessions, etc.
 
@@ -80,7 +79,7 @@ On éditera ce fichier au fur et à mesure de l'avancement, donc soyez attentifs
 
 Si vous cherchez un thème sexy pour oh-my-zsh, essayez [Powerline](https://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme).
 
-## 4) <a id="s4"></a> Homebrew
+## 4) Homebrew {#s4}
 
 > The missing package manager for OS X
 
@@ -130,7 +129,7 @@ La version de Git livrée avec les Command Line Tools n'est pas à jour et… j'
 
 [MacVim](http://code.google.com/p/macvim/) offre l'avantage de fonctionner exactement comme Vim, mais en utilisant les raccourcis Mac, en plus d'être à jour par rapport à la version système. En bonus, il vient avec une GUI (que je n'ai jamais ouverte).
 
-## 5) <a id="s5"></a> rbenv & Ruby
+## 5) rbenv & Ruby {#s5}
 
 Ruby est déjà installé sur Mac OS X, mais la version `1.8.7` se fait vieillote et puis on ne veut pas utiliser la version système de toute façon.
 
@@ -205,7 +204,7 @@ Et on vérifie que tout s'est bien passé :
 
 Après l'installation d'une nouvelle version de Ruby, la commande `rbenv rehash` est lancée automatiquement. Cette commande (qui sert à installer les `shims`) est à lancer à chaque fois que vous installerez une gem qui contiendra des binaires.
 
-## 6) <a id="s6"></a> Pow
+## 6) Pow {#s6}
 
 ![Pow](http://dl.dropbox.com/u/894783/pym.github.com/images/3/pow.png)
 
@@ -266,7 +265,7 @@ Powder rend l'utilisation de Pow vraiment **magique**. Pensez à faire un `powde
 
 [Anvil](http://anvilformac.com/) est un utilitaire qui vous permet de gérer vos sites configurés avec Pow via une interface graphique. Mais bon, ça serait trop facile.
 
-## 7) <a id="s7"></a> Pry
+## 7) Pry {#s7}
 
 ![Pry](http://dl.dropbox.com/u/894783/pym.github.com/images/3/pry.png)
 

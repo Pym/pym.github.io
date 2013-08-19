@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 8 conseils pour jeunes développeurs
+author: admin
 ---
 
 Parce que je trouvais que plus ça serait trop et que j'aime bien ce chiffre, voici 8 conseils généraux que devrait suivre tout bon développeur. Ou du moins, ceux qui aspirent à le devenir.
@@ -71,13 +72,13 @@ Un développeur dont les seules sources d'informations sont Korben et PC INpact 
 
 ## 6 ) Intéressez-vous au design, à l'ergonomie et à l'expérience utilisateur
 
-Concevez des produits simples, qui font ce qu'on leur demande sans rentrer dans le superflus. Ça a l'air tout bête comme ça, mais c'est pourtant un exercice des plus difficiles. 
+Concevez des produits simples, qui font ce qu'on leur demande sans rentrer dans le superflus. Ça a l'air tout bête comme ça, mais c'est pourtant un exercice des plus difficiles.
 
 Imaginons que l'on donne le sujet suivant à deux équipes de développeurs : "Réalisez un site internet pour commander des billets de train".
 
 Il y a ceux qui feront [Voyages-sncf](http://www.voyages-sncf.com/), qui auront pensé à tout un tas de fonctionnalités géniales que personne n'utilisera (souvenez-vous, ici on cherche à commander des billets de train) et il y a ceux qui arriveront avec un produit simple et agréable à utiliser : [Capitaine Train](http://www.capitainetrain.com/).
 
-Alors, qu'est-ce qu'un bon logiciel d'un point de vue utilisateur ? 
+Alors, qu'est-ce qu'un bon logiciel d'un point de vue utilisateur ?
 
   * C'est un logiciel qui répond à un besoin précis et qui y répond vite et bien.
   * C'est un logiciel dont on prend plaisir à se servir au quotidien. Qu'y-a-t-il de plus frustrant que d'être obligé d'utiliser une application mal fichue ?
