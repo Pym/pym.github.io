@@ -39,7 +39,7 @@ and can be installed on your system using the Downloads preferences pane within 
 
 D'ailleurs, si vous avez Xcode (et que votre version est à jour, c'est important) vous pouvez directement vous rendre dans les préférences à l'onglet téléchargement, puis vous n'aurez plus qu'à cliquer sur un bouton.
 
-![Xcode](http://dl.dropbox.com/u/894783/pym.github.com/images/3/xcode.png)
+![Xcode](/img/3/xcode.png)
 
 Pour les autres, il vous faudra un compte développeur Apple (gratuit), puis vous rendre sur [la page des téléchargements](https://developer.apple.com/downloads/). Une fois là bas, sélectionnez la version des Command Line Tools correspondant à votre OS (Lion ou Mountain Lion).
 
@@ -206,7 +206,7 @@ Après l'installation d'une nouvelle version de Ruby, la commande `rbenv rehash`
 
 ## 6) Pow {#s6}
 
-![Pow](http://dl.dropbox.com/u/894783/pym.github.com/images/3/pow.png)
+![Pow](/img/3/pow.png)
 
 [Pow](http://pow.cx/) est un [serveur Rack](http://en.wikipedia.org/wiki/Rack_(web_server_interface) pour Mac OS X développé par les petits mecs de [37signals](http://37signals.com/).
 
@@ -267,7 +267,7 @@ Powder rend l'utilisation de Pow vraiment **magique**. Pensez à faire un `powde
 
 ## 7) Pry {#s7}
 
-![Pry](http://dl.dropbox.com/u/894783/pym.github.com/images/3/pry.png)
+![Pry](/img/3/pry.png)
 
 > [Pry](http://pryrepl.org/) is a powerful alternative to the standard IRB shell for Ruby. It features syntax highlighting, a flexible plugin architecture, runtime invocation and source and documentation browsing.
 
