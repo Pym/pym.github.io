@@ -1,10 +1,5 @@
 ---
 ---
-.container {
-  margin: 0 auto;
-  max-width: 1000px;
-}
-
 header {
   margin-top: 20px;
 }
@@ -18,7 +13,7 @@ p {
 }
 
 blockquote p + p {
-  margin-top: .5em;
+  margin-top: .75em;
 }
 
 .listing img,
@@ -29,8 +24,6 @@ blockquote p + p {
 }
 
 #post img {
-  /*border: 5px solid {{ site.image_border_color }};
-  border-radius: 5px;*/
   display: block;
   margin: 1em auto 0 auto;
 }
@@ -60,10 +53,18 @@ blockquote p + p {
   width: 95px !important;
 }
 
+/* Custom CSS below */
+
 h2:not(:first-child), h3, h4, h5, h6 {
   margin: 24px 0 8px 0;
 }
 
 #post {
   margin-bottom: 32px;
+}
+
+img.border {
+  border: 4px solid {{ site.image_border_color }};
+  border-radius: 4px;
+  box-sizing: border-box;
 }

@@ -7,7 +7,7 @@ meta_description: "Welcome to my blog! You can call me Pym. I'm a Ruby lover, lu
 url: http://pym.me
 feed_url: http://feed.pym.me
 theme: simplex # choose one between: amelia, cosmo, flatly, readable, slate, superhero, cerulean, cyborg, journal, simplex, spacelab, united
-image_border_color: '#D9230F'
+image_border_color: '#B94A48'
 contact_email: pym@pym.me
 authors:
   admin:
