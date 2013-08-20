@@ -24,7 +24,7 @@ twitter:
   enabled: true
   lang: fr
   username: Pym
-  hashtags: [pym]
+  hashtags: []
 
 # Jekyll configuration
 # --------------------
