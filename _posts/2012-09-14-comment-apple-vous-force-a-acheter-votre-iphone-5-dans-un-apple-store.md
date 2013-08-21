@@ -6,7 +6,7 @@ author: admin
 
 Il est midi quand je commence à rédiger cet article et voici ce que l'on peut voir sur la [page de l'Apple Store](http://store.apple.com/fr/browse/home/shop_iphone/family/iphone/iphone5) de commande de l'iPhone 5 :
 
-![image](/img/2/wtf-apple.png)
+![image](/img/2/wtf-apple.png){: .border }
 
 Vers 10h25, les délais annoncés pour l'expédition sont passés à 2 semaines (auxquels s'ajoutent 2 à 7 jours pour la livraison). Une minute plus tôt, on pouvait toujours être livré le jour J : le 21 septembre.
 
@@ -18,7 +18,7 @@ Là, le doute n'est plus permis : **Apple cherche à vous décourager**. Apple n
 
 Apple veut que vous alliez faire la queue devant un Apple Store, **à 8h**. Pas "à partir de 8h", non : **à 8h**.
 
-![image](/img/2/8h.png)
+![image](/img/2/8h.png){: .border }
 
 > Mais non, n'importe quoi !
 
