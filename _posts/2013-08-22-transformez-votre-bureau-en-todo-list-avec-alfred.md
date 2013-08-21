@@ -66,7 +66,7 @@ En ajoutant `-c` suivi d'un numéro de couleur (liste ci-dessous) en paramètre 
 
     t -c2 truc super important
 
-Créera un fichier "étiquetté" en rouge (je reprends le terme bizarre de Mac OS X).
+Créera un fichier vide `truc super important`, "étiquetté" en rouge (je reprends le terme bizarre de Mac OS X).
 
 Couleurs disponibles :
 
