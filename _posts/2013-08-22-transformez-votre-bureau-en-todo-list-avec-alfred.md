@@ -82,7 +82,7 @@ Couleurs disponibles :
 
 Ouvrez Alfred et tapez `d` suivi d'un espace et vous devriez avoir quelque chose dans ce genre là :
 
-[![Pow](/img/5/remove-thumb.png){: .border }*Mon bureau à la date de rédaction de cet article*](/img/5/remove.png)
+[![Pow](/img/5/remove-thumb.png)*Mon bureau à la date de rédaction de cet article*](/img/5/remove.png){: .thumbnail }
 
 Une pression sur la touche `Entrée` et boum : la tâche disparait de votre bureau comme par magie.
 
