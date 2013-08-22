@@ -1,11 +1,16 @@
 ---
 ---
+.page-header {
+  padding-bottom: .5em;
+  margin: 2.25em 0 1.125em;
+}
+
 .page-header h1{
   font-size: 2.5em;
 }
 
 footer {
-  margin: 20px 0;
+  margin: 1.25em 0;
 }
 
 p {
@@ -54,7 +59,7 @@ blockquote p + p {
 
 .listing span {
   float: right;
-  font-size: 0.67em;
+  font-size: .67em;
 }
 
 #fblike iframe {
