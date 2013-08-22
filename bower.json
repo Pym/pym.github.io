@@ -13,6 +13,6 @@
     "tests"
   ],
   "dependencies": {
-    "bootswatch": "git://github.com/thomaspark/bootswatch.git#~2.3.2"
+    "bootswatch": "git://github.com/thomaspark/bootswatch.git#~3.0.0"
   }
 }
