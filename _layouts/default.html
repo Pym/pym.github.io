@@ -20,40 +20,54 @@
     </head>
     <body>
         <div class="container">
-            <header>
+            <header class="page-header">
                 <h1 class="title"><a href="/">{{ site.name }}</a></h1>
                 <p class="lead">{{ site.short_description }}</p>
             </header>
-            <div class="container-fluid">
-                <div class="row-fluid">
-                    <div class="span9">
-                        <section>
-                            {{ content }}
-                        </section>
+            <div class="row">
+                <div class="col-md-9">
+                    <section>
+                        {{ content }}
+                    </section>
+                </div>
+                <div id="sidebar" class="col-md-3">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">About</h3>
+                      </div>
+                      <div class="panel-body">
+                        {{ site.meta_description }}
+                      </div>
                     </div>
-                    <div class="span3">
-                        <div class="well sidebar-nav">
-                            <ul class="nav nav-list">
-                                <li class="nav-header">About</li>
-                                <li>{{ site.meta_description }}</li>
-                                <li class="nav-header">Contact</li>
-                                {% if site.twitter.enabled and site.twitter.username %}
-                                <li><a href="https://twitter.com/{{ site.twitter.username }}" class="twitter-follow-button" data-show-count="false" data-lang="{{ site.twitter.lang }}" data-dnt="true">Suivre @{{ site.twitter.username }}</a></li>
-                                {% endif %}
-                            </ul>
-                        </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">Contact</h3>
+                      </div>
+                      <div class="panel-body">
+                        {% if site.twitter.enabled and site.twitter.username %}
+                        <a href="https://twitter.com/{{ site.twitter.username }}" class="twitter-follow-button" data-show-count="false" data-lang="{{ site.twitter.lang }}" data-dnt="true">Suivre @{{ site.twitter.username }}</a>
+                        {% endif %}
+                      </div>
                     </div>
                 </div>
-                <footer>
-                    <p>&copy; {{ site.name }}</p>
-                    <!-- If you remove this you will die from cancer. True story. -->
-                    <small><a href="http://github.com/Pym/bootkyll">Bootkyll</a> theme by <a href="http://pym.me/">Pym</a></small>
-                </footer>
             </div>
+            <footer>
+                <p>&copy; {{ site.name }}</p>
+                <!-- If you remove this you will die from cancer. True story. -->
+                <small><a href="http://github.com/Pym/bootkyll">Bootkyll</a> theme by <a href="http://pym.me/">Pym</a></small>
+            </footer>
         </div>
         {% include twitter.html %}
         {% if site.analytics.enabled and site.analytics.id %}
             {% include analytics.html %}
         {% endif %}
+        <script src="/js/jquery.min.js" type="text/javascript"></script>
+        <script src="/js/flowtype.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $('body').flowtype({
+               minFont : 12,
+               maxFont : 16
+            });
+        </script>
     </body>
 </html>

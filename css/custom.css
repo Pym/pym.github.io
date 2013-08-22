@@ -1,7 +1,7 @@
 ---
 ---
-header {
-  margin-top: 20px;
+.page-header h1{
+  font-size: 2.5em;
 }
 
 footer {
@@ -13,7 +13,7 @@ p {
 }
 
 blockquote p + p {
-  margin-top: .75em;
+  margin-top: .67em;
 }
 
 .listing img,
@@ -23,9 +23,14 @@ blockquote p + p {
   padding: 1px;
 }
 
+#post {
+  margin-bottom: 32px;
+}
+
 #post img {
   display: block;
   margin: 1em auto 0 auto;
+  width: 100%;
 }
 
 #post img + em {
@@ -34,8 +39,12 @@ blockquote p + p {
   text-align: center;
 }
 
+#post .thumbnail img {
+  margin: 0;
+}
+
 .listing {
-  font-size: 18px;
+  font-size: 1.17em;
 }
 
 .listing li {
@@ -45,8 +54,7 @@ blockquote p + p {
 
 .listing span {
   float: right;
-  font-size: 12px;
-  padding-top: 6px;
+  font-size: 0.67em;
 }
 
 #fblike iframe {
@@ -55,12 +63,17 @@ blockquote p + p {
 
 /* Custom CSS below */
 
-h2:not(:first-child), h3, h4, h5, h6 {
-  margin: 24px 0 8px 0;
-}
+/* FlowType.JS */
+body {font-size: 16px}
+h1   {font-size: 2.5em}
+h2   {font-size: 2em}
+h3   {font-size: 1.67em}
+h4   {font-size: 1.5em}
+h5   {font-size: 1.35em}
+h6   {font-size: 1.17em}
 
-#post {
-  margin-bottom: 32px;
+h2:not(:first-child), h3, h4, h5, h6 {
+  margin: 1.5em 0 .5em 0;
 }
 
 img.border {
