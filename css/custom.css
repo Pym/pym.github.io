@@ -35,7 +35,7 @@ blockquote p + p {
 #post img {
   display: block;
   margin: 1em auto 0 auto;
-  width: 100%;
+  max-width: 100%;
 }
 
 #post img + em {
@@ -66,16 +66,16 @@ blockquote p + p {
   width: 95px !important;
 }
 
-/* Custom CSS below */
-
 /* FlowType.JS */
+
 body {font-size: 16px}
-h1   {font-size: 2.5em}
-h2   {font-size: 2em}
-h3   {font-size: 1.67em}
-h4   {font-size: 1.5em}
-h5   {font-size: 1.35em}
-h6   {font-size: 1.17em}
+
+h1 {font-size: 2.5em}
+h2 {font-size: 2em}
+h3 {font-size: 1.67em}
+h4 {font-size: 1.5em}
+h5 {font-size: 1.35em}
+h6 {font-size: 1.17em}
 
 blockquote p {font-size: 1.015em}
 
@@ -86,24 +86,19 @@ legend {font-size: 1.22em}
 .form-control {font-size: .8125em}
 
 .input-sm {font-size: .75em}
-
 .input-lg {font-size: 1.0625em}
 
 .btn {font-size: .8125em}
-
 .btn-lg {font-size: 1.0625em}
 
 .btn-sm,
 .btn-xs {font-size: .75em}
 
 .dropdown-menu {font-size: .8125em}
-
 .dropdown-header {font-size: .75em}
 
 .btn-group-xs > .btn {font-size: .75em}
-
 .btn-group-sm > .btn {font-size: .75em}
-
 .btn-group-lg > .btn {font-size: 1.0625em}
 
 .input-group-lg > .form-control,
@@ -115,9 +110,7 @@ legend {font-size: 1.22em}
 .input-group-sm > .input-group-btn > .btn {font-size: .75em}
 
 .input-group-addon {font-size: .8125em}
-
 .input-group-addon.input-sm {font-size: .75em}
-
 .input-group-addon.input-lg {font-size: 1.0625em}
 
 .navbar-brand {font-size: 1.0625em}
@@ -154,6 +147,8 @@ legend {font-size: 1.22em}
     font-size: 1.875em;
   }
 }
+
+/* Custom CSS */
 
 h2:not(:first-child), h3, h4, h5, h6 {
   margin: 1.5em 0 .5em 0
