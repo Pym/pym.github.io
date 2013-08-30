@@ -11,8 +11,9 @@ image_border_color: '#B94A48'
 contact_email: pym@pym.me
 authors:
   admin:
-    display_name: Pierre-Yves Jamon
+    display_name: Pym
     gravatar_md5: 45b3e5b638912fd5552fb74c283cd2a5
+    google_plus: 109835330930242197708
 analytics:
   enabled: true
   id: UA-6852835-7
