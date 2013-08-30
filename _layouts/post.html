@@ -2,10 +2,12 @@
 layout: default
 ---
 {% assign author = site.authors[page.author] %}
-<div class="content">
-  <h1>{{ page.title }}</h1>
-  <p class="meta"><img src="http://www.gravatar.com/avatar/{{ author.gravatar_md5 }}?size=32" width="32" height="32" alt="{{ author.display_name }}"> {{ author.display_name }}, le {{ page.date | date_to_string }}</p>
-  <div id="post">
+<div class="content" itemscope itemtype="http://schema.org/Article">
+  <h1 itemprop="name">{{ page.title }}</h1>
+  <p class="meta">
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person"><img src="http://www.gravatar.com/avatar/{{ author.gravatar_md5 }}?size=32" width="32" height="32" alt="{{ author.display_name }}"> <span itemprop="name">{{ author.display_name }}</span></span>, le <span itemprop="datePublished" content="{{ page.date }}">{{ page.date | date_to_string }}</span>
+  </p>
+  <div id="post" itemprop="articleBody">
     {{ content }}
   </div>
   <div class="fb-like" data-send="false" data-layout="button_count" data-show-faces="false"></div>
