@@ -60,6 +60,7 @@ blockquote p + p {
 .listing span {
   float: right;
   font-size: .67em;
+  padding-left: 10px;
 }
 
 #fblike iframe {
