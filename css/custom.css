@@ -160,3 +160,7 @@ img.border {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
+.social iframe {
+  vertical-align: middle;
+}

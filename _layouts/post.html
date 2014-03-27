@@ -10,12 +10,14 @@ layout: default
   <div id="post" itemprop="articleBody">
     {{ content }}
   </div>
-  <div class="fb-like" data-send="false" data-layout="button_count" data-show-faces="false"></div>
-  {% if site.twitter.enabled and site.twitter.username %}
-  <a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.twitter.username }}" data-lang="{{ site.twitter.lang }}" data-related="{{ site.twitter.username }}" data-hashtags="{{ site.twitter.hashtags | join:',' }}" data-dnt="true">Tweeter</a>
-  {% else %}
-  <a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweeter</a>
-  {% endif %}
+  <div class="social">
+    <div class="fb-like" data-send="false" data-layout="button_count" data-show-faces="false"></div>
+    {% if site.twitter.enabled and site.twitter.username %}
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.twitter.username }}" data-lang="{{ site.twitter.lang }}" data-related="{{ site.twitter.username }}" data-hashtags="{{ site.twitter.hashtags | join:',' }}" data-dnt="true">Tweeter</a>
+    {% else %}
+    <a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweeter</a>
+    {% endif %}
+  </div>
   {% if site.disqus.enabled and site.disqus.shortname and page.comments_disabled != true %}
   <div id="disqus_thread"></div>
   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
