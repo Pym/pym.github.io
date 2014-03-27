@@ -32,4 +32,5 @@ twitter:
 # see: http://jekyllrb.com/docs/configuration/
 #
 exclude: [public, bower_components, bower.json, CNAME]
+markdown: kramdown
 permalink: /posts/:title
