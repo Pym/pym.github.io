@@ -12,6 +12,7 @@
         <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
         {% if page.content %}<meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}">{% endif %}
         {% if page.image %}<meta name="twitter:image:src" content="{{ site.url }}{{ page.image }}">{% endif %}
+        <meta name="twitter:domain" content="{{ site.url | replace_first: 'http://', '' }}">
         {% endif %}
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
