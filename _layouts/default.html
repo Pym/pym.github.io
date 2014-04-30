@@ -6,6 +6,13 @@
         <title>{{ page.title }}</title>
         <meta name="description" content="{{ site.meta_description }}">
         <meta name="viewport" content="width=device-width">
+        {% if site.twitter.enabled and site.twitter.username %}
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@{{ site.twitter.username }}">
+        <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+        {% if page.content %}<meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}">{% endif %}
+        {% if page.image %}<meta name="twitter:image:src" content="{{ site.url }}{{ page.image }}">{% endif %}
+        {% endif %}
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
         <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
