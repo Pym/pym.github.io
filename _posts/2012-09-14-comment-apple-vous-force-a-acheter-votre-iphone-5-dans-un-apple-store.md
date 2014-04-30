@@ -2,6 +2,7 @@
 layout: post
 title: Comment Apple vous force à acheter votre iPhone 5 dans un Apple Store
 author: admin
+image: /img/2/8h.png
 ---
 
 Il est midi quand je commence à rédiger cet article et voici ce que l'on peut voir sur la [page de l'Apple Store](http://store.apple.com/fr/browse/home/shop_iphone/family/iphone/iphone5) de commande de l'iPhone 5 :

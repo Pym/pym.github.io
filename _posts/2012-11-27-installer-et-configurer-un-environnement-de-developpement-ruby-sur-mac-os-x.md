@@ -2,6 +2,7 @@
 layout: post
 title: Installer et configurer un environnement de développement Ruby sur Mac OS X
 author: admin
+image: /img/3/xcode.png
 ---
 
 Ces derniers temps, j'observe beaucoup de développeurs dans mon entourage voulant s'essayer à Ruby et/ou Rails. Je ne sais pas si c'est grâce à mon lobbying intensif ou si c'est parce que les gens commencent enfin à se rendre compte que **PHP est un langage moisi**, mais on ne va pas se plaindre.
