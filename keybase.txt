@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/pym
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://pym.me
+  * I am pym (https://keybase.io/pym) on keybase.
+  * I have a public key with fingerprint F8F3 4DCA 6CD6 27B3 3070  536C 2730 CDC0 2186 7965
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "f8f34dca6cd627b33070536c2730cdc021867965",
+            "host": "keybase.io",
+            "key_id": "2730cdc021867965",
+            "kid": "01015c58f9d22497850e581c3dc46fddfc233069bdf882a86ec2b33825f64f95bbc60a",
+            "uid": "ef7ff60507959a8efe9c53ee59f0a800",
+            "username": "pym"
+        },
+        "service": {
+            "hostname": "pym.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1423595926,
+    "expire_in": 157680000,
+    "prev": "3339d45fa38c3e3d766aafc92e01d3d0aee90aa17d0e1786f3647e0f47f1b027",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.1
+Comment: https://keybase.io/crypto
+
+yMIXAnicbVJbSFRBGN7NLmZF0YUEpYdDdnOxOZeZc86SFGqE0s0KIqiWc+binjZ3
+t7NHazNNCsLAHiowCSyjwtCCEEq0i1a6YloRvkQU2HbDjMxCqAhqjhS99DQz3/99
+3//9M9M9K8WT5t2V9yC/tjAZ8Pbfg2Webc931FUIZoTEBX+FEKITC7PCJdSO2lbY
+EfwC05isEGwgTJCkmrIMVABlhCVVBphgIIkaUnUEBZ8QjMRcBbcxjRjNsSIc44eA
+RTj6H35oogBEIEIMNaYTSVJ0VYOAQk3EMsEKYoQwLPGmSDcJ0zTJ0BDFEo+hSZAh
+henQNDECBrcrm7CjTGUMAQhUHeqGRhnVMZQphToDhgaAS4xRO2yUUs6OxkuFSp/A
+gXILU3d6d4h/xRy+8QlRO+JEcGQvx4KOE/W7EicedTn7qRn4ow6YVpjwu+OCcmrH
+rEhY8IuciR3LtRMVSYY8k4R8Aj0QtWwasFwGVBGPBYDbhpZzS1mWdaJAZsgalqlM
+VIQMg2FdokAkMgEGpTowDFElgIqqhpiMFJUCpqhMNIGkCu48+8IRwa/xmEYJt4xZ
+JWHDKbOpUHm/a+dkjzfNM3XKJPf1PWnT5/z9E3uMVM/5od71W0eLRj5+dgq10SM3
+WtbMDKXPz/RWXW8ctvMH0FD23bb915Jvc5ObNlx9eezql6qfZ/XRRGty8bHOPSNN
+q8bf1Q/78D1nWv9s9cwrWEVTkqcuH1y7oLGDVWcc2uh8Hxie8bVxS8Wy2+8LvgY3
+kPQnzQ96Ok6uzb94aXtb4mn1YPy0/1lWw+PWAcdsupLxcFFnz5y02tsp8IWyefxH
+TXrXvKGWvbfmZs74dLO9r/R9Re741pL25sP2h+Pa7rGChlDx6gY7Ub/u253zj/q6
+lbuHX/fmHj1a+24sL9gaWr+t/qyvbcnK7KWDU1LPvYHFgxeynIXtyxOZNSsqf504
+MAnUFf0GprMqpQ==
+=6eK4
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pym
+
+==================================================================
