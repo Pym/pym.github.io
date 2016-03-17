@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Installer et configurer un environnement de développement Ruby sur Mac OS X
-author: admin
+author: pym
 image: /img/3/xcode.png
 ---
 

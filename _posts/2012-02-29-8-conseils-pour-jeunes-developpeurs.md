@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 8 conseils pour jeunes développeurs
-author: admin
+author: pym
 ---
 
 Parce que je trouvais que plus ça serait trop et que j'aime bien ce chiffre, voici 8 conseils généraux que devrait suivre tout bon développeur. Ou du moins, ceux qui aspirent à le devenir.

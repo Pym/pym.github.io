@@ -1,36 +1,29 @@
-# Bootkyll configuration
-# ----------------------
-#
-name: Pym.me
-short_description: '“ I used to be a developer like you, then I took an arrow in the knee. ”'
-meta_description: "Welcome to my blog! You can call me Pym. I'm a Ruby lover, lucid dreamer and also a flat design enthousiast. Have fun reading me!"
-url: http://pym.me
+# Site settings
+title: Pym.me
+logo: site-logo.svg
+description: I used to be a developer like you, then I took an arrow in the knee.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: http://pym.me # the base hostname & protocol for your site
 feed_url: http://feed.pym.me
-theme: simplex # choose one between: amelia, cosmo, flatly, readable, slate, superhero, cerulean, cyborg, journal, simplex, spacelab, united
-image_border_color: '#B94A48'
-contact_email: pym@pym.me
-authors:
-  admin:
-    display_name: Pym
-    gravatar_md5: 45b3e5b638912fd5552fb74c283cd2a5
-    google_plus: 109835330930242197708
-analytics:
-  enabled: true
-  id: UA-6852835-7
-  url: pym.me
-disqus:
-  enabled: true
-  shortname: pym-me
-twitter:
-  enabled: true
-  lang: fr
-  username: Pym
-  hashtags: []
+permalink: /posts/:title
+navigation:
+  - slug: /monkeys/see-no-evil-monkey
+    label: 🙈
+  - slug: /monkeys/speak-no-evil-monkey
+    label: 🙊
+  - slug: /monkeys/hear-no-evil-monkey
+    label: 🙉
 
-# Jekyll configuration
-# --------------------
-# see: http://jekyllrb.com/docs/configuration/
-#
+# Build settings
 exclude: [public, bower_components, bower.json, CNAME]
 markdown: kramdown
-permalink: /posts/:title
+
+# Plugins
+gems: [jekyll-paginate]
+paginate: 5
+
+# Services
+analytics: UA-6852835-7
+facebook_l10n: fr_FR
+twitter: Pym
+disqus: pym-me

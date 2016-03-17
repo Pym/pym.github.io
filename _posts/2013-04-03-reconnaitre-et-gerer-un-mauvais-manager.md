@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reconnaitre et gérer un mauvais manager
-author: admin
+author: pym
 ---
 
 Les mauvais managers \: ces collaborateurs mal-aimés que personne n'apprécie, exceptés leur n+1 (sinon ils ne seraient pas à leur poste) et les gens qui n'ont jamais eu à travailler avec eux.

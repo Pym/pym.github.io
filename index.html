@@ -1,13 +1,5 @@
 ---
 layout: default
-title: Pym.me
+cover: /img/covers/torenga.jpg
 ---
-<div class="content">
-  <h2>Articles</h2>
-  <ul class="listing">
-    {% for post in site.posts %}
-      {% assign author = site.authors[post.author] %}
-      <li><span>{{ post.date | date_to_string }}</span><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+{% include loop.html posts=paginator.posts %}

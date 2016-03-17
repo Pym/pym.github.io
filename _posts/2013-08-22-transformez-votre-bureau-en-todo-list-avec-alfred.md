@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Transformez votre bureau en todo list avec Alfred"
-author: admin
+author: pym
 image: /img/5/remove-thumb.png
 ---
 

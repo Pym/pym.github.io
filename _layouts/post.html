@@ -1,27 +1,49 @@
 ---
 layout: default
+post_class: post-template
 ---
-{% assign author = site.authors[page.author] %}
-<div class="content" itemscope itemtype="http://schema.org/Article">
-  <h1 itemprop="name">{{ page.title }}</h1>
-  <p class="meta">
-    <span itemprop="author" itemscope itemtype="http://schema.org/Person"><img src="http://www.gravatar.com/avatar/{{ author.gravatar_md5 }}?size=32" width="32" height="32" alt="{{ author.display_name }}"> {% if author.google_plus %}<a href="https://plus.google.com/{{ author.google_plus }}?rel=author"></a>{% endif %}<span itemprop="name">{{ author.display_name }}</span></span>, le <span itemprop="datePublished" content="{{ page.date }}">{{ page.date | date_to_string }}</span>
-  </p>
-  <div id="post" itemprop="articleBody">
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <section class="post-meta">
+      <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+      {% if page.categories.size > 0 %}
+      {{ page.categories | array_to_sentence_string | prepend: 'on ' }}
+      {% endif %}
+    </section>
+  </header>
+
+  <section class="post-content">
     {{ content }}
-  </div>
-  <div class="social">
-    <div class="fb-like" data-send="false" data-layout="button_count" data-show-faces="false"></div>
-    {% if site.twitter.enabled and site.twitter.username %}
-    <a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.twitter.username }}" data-lang="{{ site.twitter.lang }}" data-related="{{ site.twitter.username }}" data-hashtags="{{ site.twitter.hashtags | join:',' }}" data-dnt="true">Tweeter</a>
-    {% else %}
-    <a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweeter</a>
+  </section>
+
+  <footer class="post-footer">
+    {% include author.html %}
+    {% include share.html %}
+    {% if site.disqus and page.disable_comments != true %}
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function () {
+        {% assign canonical_url = page.url | preprend: site.baseurl | prepend: site.url %}
+        this.page.url = '{{ canonical_url }}';
+        this.page.identifier = '{{ page.url }}';
+        this.page.title = '{{ page.title }}';
+      };
+      (function() {
+        var d = document, s = d.createElement('script');
+        s.src = '//{{ site.disqus }}.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/{{ site.facebook_l10n }}/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
     {% endif %}
-  </div>
-  {% if site.disqus.enabled and site.disqus.shortname and page.comments_disabled != true %}
-  <div id="disqus_thread"></div>
-  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  {% endif %}
-  <div id="fb-root"></div>
-</div>
-{% include sharing.html %}
+  </footer>
+</article>

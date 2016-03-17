@@ -1,0 +1,29 @@
+---
+# Custom CSS
+---
+
+@import "syntax-highlighting";
+
+.post-excerpt p {
+	display:inline;
+}
+
+.blog-logo {
+
+    > svg {
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        vertical-align: middle;
+
+        path {
+            fill: #d9230f;
+        }
+    }
+}
+
+img.with-title + em {
+	display: block;
+	margin-top: .5em;
+	text-align: center;
+}
