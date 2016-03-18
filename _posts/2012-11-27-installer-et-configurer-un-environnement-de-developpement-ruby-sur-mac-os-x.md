@@ -209,7 +209,7 @@ Après l'installation d'une nouvelle version de Ruby, la commande `rbenv rehash`
 
 ![Pow](/img/3/pow.png)
 
-[Pow](http://pow.cx/) est un [serveur Rack](http://en.wikipedia.org/wiki/Rack_(web_server_interface) pour Mac OS X développé par les petits mecs de [37signals](http://37signals.com/).
+[Pow](http://pow.cx/) est un [serveur Rack](http://en.wikipedia.org/wiki/Rack_(web_server_interface)) pour Mac OS X développé par les petits mecs de [37signals](http://37signals.com/).
 
 > Pow is a zero-configuration Rack server for Mac OS X. It makes developing Rails and Rack applications as frictionless as possible. You can install it in ten seconds and have your first app up and running in under a minute. No mucking around with `/etc/hosts`, no compiling Apache modules, no editing configuration files or installing preference panes. And running multiple apps with multiple versions of Ruby is trivial.
 
