@@ -10,7 +10,7 @@
   {% endif %}
   </nav>
 
-{% if page.layout == 'default' %}
+{% if page.layout == 'default' and page.post_class == nil %}
   <div class="vertical">
     <div class="main-header-content inner">
       <h1 class="page-title">{{ site.title }}</h1>

@@ -1,5 +1,5 @@
 {% capture title %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
-{% capture description %}{{ page.content | strip_html | xml_escape | truncate: 300 }}{% endcapture %}
+{% capture description %}{% if page.layout == 'default' and page.post_class == nil %}{{ site.description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 300 }}{% endif %}{% endcapture %}
 {% capture image %}{{ page.image | prepend: site.baseurl | prepend: site.url }}{% endcapture %}
 {% capture canonical_url %}{{ page.image | prepend: site.baseurl | prepend: site.url }}{% endcapture %}
 

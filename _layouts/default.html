@@ -2,7 +2,21 @@
 <html>
   {% include head.html %}
 
-  <body class="{% if page.layout == 'default' %}{% if paginator.page != 1 %}archive-template{% else %}home-template{% endif %}{% else %}{{ layout.post_class }}{% endif %} nav-closed">
+  {% capture template %}
+    {% if page.post_class %}
+      {{ page.post_class }}
+    {% elsif layout.post_class %}
+      {{ layout.post_class }}
+    {% elsif page.post_class == nil %}
+      {% if paginator.page != 1 %}
+        archive-template
+      {% else %}
+        home-template
+      {% endif %}
+    {% endif %}
+  {% endcapture%}
+
+  <body class="{{ template | strip }} nav-closed">
     {% include navigation.html %}
 
     <div class="site-wrapper">
