@@ -1,25 +1,30 @@
 ---
-# Custom CSS
+# Jasper Main SCSS
 ---
+
+// From the Jekyll default theme
+//------------------------------
 
 @import "syntax-highlighting";
 
-.post-excerpt p {
-	display:inline;
+// Custom CSS below
+// ----------------
+{% if site.header.text_shadow %}
+.main-header-content {
+  text-shadow: {{ site.header.text_shadow }};
 }
+{% endif %}
 
-.blog-logo {
-
-    > svg {
-        display: inline-block;
-        width: 45px;
-        height: 45px;
-        vertical-align: middle;
-
-        path {
-            fill: #d9230f;
-        }
-    }
+.blog-logo svg {
+  box-sizing: border-box;
+  display: block;
+  height: 38px;
+  padding: 1px 0 5px 0;
+  width: auto;
+  vertical-align: middle;
+  path {
+    fill: #d9230f;
+  }
 }
 
 img.with-title + em {

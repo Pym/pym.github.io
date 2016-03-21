@@ -4,8 +4,12 @@ logo: site-logo.svg
 description: I used to be a developer like you, then I took an arrow in the knee.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://pym.me # the base hostname & protocol for your site
-feed_url: http://feed.pym.me
-permalink: /posts/:title
+
+# Main header
+header:
+  text_shadow: 0 0 20px rgba(0, 80, 120, .8) # CSS text-shadow
+
+# Navigation
 navigation:
   - slug: /monkeys/see-no-evil-monkey
     label: 🙈
@@ -14,16 +18,23 @@ navigation:
   - slug: /monkeys/hear-no-evil-monkey
     label: 🙉
 
+# Services (all are optional)
+analytics: UA-6852835-7 # Google Analytics tracking ID
+disqus: pym-me          # Disqus shortname
+facebook_l10n: fr_FR    # Your locale (en_US, fr_FR, etc.)
+twitter: Pym            # Website's Twitter username (without the '@')
+
 # Build settings
-exclude: [public, bower_components, bower.json, CNAME]
+exclude: [CNAME, Gemfile, Gemfile.lock]
 markdown: kramdown
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown
 
 # Plugins
 gems: [jekyll-paginate]
-paginate: 5
+paginate: 5 # Post excerpts by page
+paginate_path: "/page/:num" # Default was "/page:num/"
 
-# Services
-analytics: UA-6852835-7
-facebook_l10n: fr_FR
-twitter: Pym
-disqus: pym-me
+# Pym.me
+feed_url: http://feed.pym.me
+permalink: /posts/:title

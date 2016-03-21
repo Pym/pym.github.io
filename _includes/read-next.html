@@ -16,8 +16,8 @@
   {% if post_index1 == forloop.index0 %}{% assign prev_post = post %}{% endif %}
 {% endfor %}
 
-{% capture next_post_cover %}{% if next_post.cover %}" style="background-image: url({{ next_post.cover }}){% else %}no-cover{% endif %}{% endcapture %}
-{% capture prev_post_cover %}{% if prev_post.cover %}" style="background-image: url({{ prev_post.cover }}){% else %}no-cover{% endif %}{% endcapture %}
+{% capture next_post_cover %}{% if next_post.cover %}" style="background-image: url({{ site.baseurl | append: next_post.cover }}){% else %}no-cover{% endif %}{% endcapture %}
+{% capture prev_post_cover %}{% if prev_post.cover %}" style="background-image: url({{ site.baseurl | append: prev_post.cover }}){% else %}no-cover{% endif %}{% endcapture %}
 
 <aside class="read-next">
 {% if next_post %}

@@ -1,8 +1,8 @@
-pym:
-  slug: pym
-  name: Pierre-Yves Jamon
-  gravatar: 45b3e5b638912fd5552fb74c283cd2a5
-  bio: I make web &amp; mobile things.
-  location:
-  twitter: Pym
-  github: Pym
+pym: # Author key. Must be the same as the slug (next line)
+  slug: pym # Must be the same as the author key (previous line) [required]
+  name: Pierre-Yves Jamon # Doesn't need an explanation [required] [views: all]
+  bio: I make web &amp; mobile things. # Short bio [optional] [views: post, author]
+  location: # [optional] [views: post, author]
+  twitter: Pym # Twitter username (without the '@') [views: post, author]
+  github: Pym # GitHub username or username/repository (without any '@'!) [optional] [views: post, author]
+  gravatar: 45b3e5b638912fd5552fb74c283cd2a5 # MD5 hash of your Gravatar email [optional (but it's cool)]

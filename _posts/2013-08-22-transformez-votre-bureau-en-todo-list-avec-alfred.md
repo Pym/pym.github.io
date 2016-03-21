@@ -2,7 +2,7 @@
 layout: post
 title: "Transformez votre bureau en todo list avec Alfred"
 author: pym
-image: /img/5/remove-thumb.png
+image: images/5/remove-thumb.png
 ---
 
 [Zach Holman](http://zachholman.com/), un mec de chez GitHub qui aime bien donner des conférences, a récemment partagé sur son repository dotfiles [un script simpliste](https://github.com/holman/dotfiles/commit/d774e970a88a04aca8024178849301af6d6ac5c3) lui permettant de gérer ses todos… à l'aide de son bureau !
@@ -55,7 +55,7 @@ Le lien est en fin d'article, mais avant de télécharger le workflow je vais qu
 
 Ouvrez Alfred et tapez `t` suivi du nom de votre truc à faire.
 
-![Pow](/img/5/add.png)
+![Pow](/images/5/add.png)
 
 Ce qui aura pour effet de créer un fichier vide `sauver le monde` sur votre Bureau (`~/Desktop`).
 
@@ -83,7 +83,7 @@ Couleurs disponibles :
 
 Ouvrez Alfred et tapez `d` suivi d'un espace et vous devriez avoir quelque chose dans ce genre là :
 
-[![Pow](/img/5/remove-thumb.png)*Mon bureau à la date de rédaction de cet article*](/img/5/remove.png){: .thumbnail }
+[![Pow](/images/5/remove-thumb.png)*Mon bureau à la date de rédaction de cet article*](/images/5/remove.png){: .thumbnail }
 
 Une pression sur la touche `Entrée` et boum : la tâche disparait de votre bureau comme par magie.
 

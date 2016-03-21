@@ -3,5 +3,5 @@ layout: author
 title: Articles de Pym
 author: pym
 ---
-{% assign posts = site.posts | where: "author","pym" %}
+{% assign posts = site.posts | where: 'author', 'pym' %}
 {% include loop.html posts=posts  %}
