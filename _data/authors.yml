@@ -5,4 +5,4 @@ pym: # Author key. Must be the same as the slug (next line)
   location: # [optional] [views: post, author]
   twitter: Pym # Twitter username (without the '@') [views: post, author]
   github: Pym # GitHub username or username/repository (without any '@'!) [optional] [views: post, author]
-  gravatar: 45b3e5b638912fd5552fb74c283cd2a5 # MD5 hash of your Gravatar email [optional (but it's cool)]
+  gravatar: ae6dba64d65043aea4ada9133f7bd8c6 # MD5 hash of your Gravatar email [optional (but it's cool)]
