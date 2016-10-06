@@ -55,7 +55,7 @@ Le lien est en fin d'article, mais avant de télécharger le workflow je vais qu
 
 Ouvrez Alfred et tapez `t` suivi du nom de votre truc à faire.
 
-![Pow](/images/5/add.png)
+![Créer une tâche](/images/5/add.png)
 
 Ce qui aura pour effet de créer un fichier vide `sauver le monde` sur votre Bureau (`~/Desktop`).
 
@@ -83,7 +83,7 @@ Couleurs disponibles :
 
 Ouvrez Alfred et tapez `d` suivi d'un espace et vous devriez avoir quelque chose dans ce genre là :
 
-[![Pow](/images/5/remove-thumb.png)*Mon bureau à la date de rédaction de cet article*](/images/5/remove.png){: .thumbnail }
+[![Lister et supprimer des tâches](/images/5/remove-thumb.png){: .with-title }*Mon bureau à la date de rédaction de cet article*](/images/5/remove.png)
 
 Une pression sur la touche `Entrée` et boum : la tâche disparait de votre bureau comme par magie.
 
