@@ -1,5 +1,6 @@
 ---
 layout: default
+header_class: author-head
 post_class: author-template
 ---
 {% assign author = site.data.authors[page.author] %}
@@ -14,9 +15,7 @@ post_class: author-template
     <div class="img" style="background-image: url({{ author_image }})"><span class="hidden">{{ author.name }}'s Picture</span></div>
   </figure>
 {% endif %}
-
   <h1 class="author-title">{{ author.name }}</h1>
-
 {% if author.bio %}
   <h2 class="author-bio">{{ author.bio }}</h2>
 {% endif %}
@@ -28,4 +27,6 @@ post_class: author-template
 {% include author-meta.html stats=stats %}
 </section>
 
-{{ content }}
+<main class="content" role="main">
+  {{ content }}
+</main>
