@@ -41,7 +41,7 @@ Je lui trouvais plusieurs avantages :
 - J'aime avoir un bureau clean. Y avoir mes tâches m'encouragerait donc à m'en débarrasser plus vite pour retrouver un bureau propre.
 - Aucune application à lancer et pas besoin d'aller sur un site pour consulter ma todo list. Elle est là et je suis forcé de la voir plusieurs fois par jour.
 
-Cependant, un point m'embêtait tout de même. J'ai beau avoir [iTerm2]({% post_url 2012-11-27-installer-et-configurer-un-environnement-de-developpement-ruby-sur-mac-os-x %}/#s2) ouvert en permanence, il y a un outil que je trouve encore plus adapté pour faire le job et que j'utilise tout autant : [Alfred](http://www.alfredapp.com/).
+Cependant, un point m'embêtait tout de même. J'ai beau avoir [iTerm2]({% post_url 2012-11-27-installer-et-configurer-un-environnement-de-developpement-ruby-sur-mac-os-x %}#s2) ouvert en permanence, il y a un outil que je trouve encore plus adapté pour faire le job et que j'utilise tout autant : [Alfred](http://www.alfredapp.com/).
 
 ## Introducing Desktop Todo
 
