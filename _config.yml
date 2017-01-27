@@ -11,11 +11,11 @@ header:
 
 # Navigation
 navigation:
-  - slug: /monkeys/see-no-evil-monkey
+  - slug: /monkeys/see-no-evil-monkey/
     label: 🙈
-  - slug: /monkeys/speak-no-evil-monkey
+  - slug: /monkeys/speak-no-evil-monkey/
     label: 🙊
-  - slug: /monkeys/hear-no-evil-monkey
+  - slug: /monkeys/hear-no-evil-monkey/
     label: 🙉
 
 # Services (all are optional)
