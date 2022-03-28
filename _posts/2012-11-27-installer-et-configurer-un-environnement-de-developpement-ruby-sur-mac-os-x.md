@@ -34,7 +34,7 @@ Et c'est exactement ce que vous propose ce tutoriel, à suivre **dans l'ordre**.
 L'étape indispensable (et susceptible de prendre un peu de temps) est l'installation des Command Line Tools for Xcode. C'est un gros package contenant l'ensemble des outils qui vont nous être utiles pour la suite.
 
 > This package enables UNIX-style development via Terminal by installing command line developer tools, as well as Mac OS X SDK frameworks and headers. Many useful tools are included, such as the Apple LLVM compiler, linker, and Make. If you use Xcode, these tools are also embedded within the Xcode IDE,
-and can be installed on your system using the Downloads preferences pane within Xcode 4.5.
+> and can be installed on your system using the Downloads preferences pane within Xcode 4.5.
 
 À noter que pour peu que vous ayez déjà développé sur Mac, il y a de grandes chances pour que vous ayez déjà installé la suite.
 
@@ -168,7 +168,7 @@ Au choix, à faire dans votre `.zshrc` :
 **OU**
 
 - Rendez-vous à la fin du fichier et ajoutez sur une nouvelle ligne :
-
+  
       if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 ### Installation de Ruby
@@ -303,15 +303,15 @@ On cherche une méthode qui pourrait nous être utile avec `find-method` (au has
 On se rencarde sur la méthode trouvée avec `show-doc` :
 
     [3] pry(main)> show-doc s.reverse
-
+    
     From: string.c (C Method):
     Number of lines: 3
     Owner: String
     Visibility: public
     Signature: reverse()
-
+    
     Returns a new string with the characters from str in reverse order.
-
+    
        "stressed".reverse   #=> "desserts"
 
 Et on fait ce que nous dit le monsieur :

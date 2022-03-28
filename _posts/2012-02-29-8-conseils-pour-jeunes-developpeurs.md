@@ -4,19 +4,19 @@ title: 8 conseils pour jeunes développeurs
 author: pym
 ---
 
-Parce que je trouvais que plus ça serait trop et que j'aime bien ce chiffre, voici 8 conseils généraux que devrait suivre tout bon développeur. Ou du moins, ceux qui aspirent à le devenir.
+Parce que je trouvais que plus ça serait trop et que j'aime bien ce chiffre, voici 8 conseils généraux que devraient suivre tout bon développeur. Ou du moins, ceux qui aspirent à le devenir.
 
 **N. B.** Ceci n'est pas un article technique.
 
 ## 1) Ne vous trompez pas de voie
 
-Un des plus gros chocs que j'ai eu en commençant mes études, c'est de tomber sur des étudiants ayant ce genre de discours :
+Un des plus gros chocs que j'ai eus en commençant mes études, c'est de tomber sur des étudiants ayant ce genre de discours :
 
 > Non alors moi si je fais des études en informatique c'est pas pour pisser du code toute ma vie hein ! Après mon Bac+5, je serai chef de projet et je bosserai pas pour moins de 50k.
 
 Si vous pensiez passer pour une personne ambitieuse en disant ça, perdu : vous passez pour un branleur.
 
-Jusqu'alors autodidacte, je m'imaginais naïvement que mes camarades étaient aussi des passionnés. Hélas en réalité, c'est plutôt rare. Dans le cas présent la plupart n'avaient même jamais pondu la moindre ligne de code.
+Jusqu'alors autodidacte, je m'imaginais naïvement que mes camarades étaient aussi des passionnés. Hélas, en réalité, c'est plutôt rare. Dans le cas présent la plupart n'avaient même jamais pondu la moindre ligne de code.
 
 On retrouve ce genre de profils en école — et par la suite dans le monde du travail — pour une bonne raison : c'est la conséquence directe de la communication de toutes les écoles privées qui ne se vendent qu'en promettant des salaires de 35k minimum à la sortie.
 
@@ -38,13 +38,13 @@ Que faites-vous quand vous rencontrez un problème et qu'une personne se trouvan
 
 Deux jours plus tard, nouveau problème. La personne qui vous a déjà aidé auparavant est à deux mètres. Vous vous dites qu'elle détient *probablement* la solution, vous lui demandez à nouveau de l'aide.
 
-Quelques temps après, rebelotte : "a wild bug appears". Vous vous dites qu'elle détient la solution. Sauf que cette fois-ci, elle vous envoie balader pour une raison simple : en tapant votre bug dans Google, la réponse apparait dans les 3 premiers résultats !
+Quelques temps après, re-belotte : "a wild bug appears". Vous vous dites qu'elle détient la solution. Sauf que cette fois-ci, elle vous envoie balader pour une raison simple : en tapant votre bug dans Google, la réponse apparait dans les 3 premiers résultats !
 
 Le problème quand on commence à demander de l'aide (et qu'on nous l'apporte sur un plateau) c'est que l'on peut vite en arriver jusqu'à oublier comment chercher par soi-même.
 
-Apprenez à ne demandez de l'aide que quand vous avez déjà passé du temps à essayer de trouver une solution par vous-même.
+Apprenez à ne demander de l'aide que quand vous avez déjà passé du temps à essayer de trouver une solution par vous-même.
 
-Gardez en tête que tous les problèmes sur lesquels on tombent ont déjà étés rencontrées et résolus 99 % du temps. Il suffit "juste" d'être capable de les identifier. Pour cela je ne saurais que vous recommander d'essayer la méthode des [5 pourquois](http://en.wikipedia.org/wiki/5_Whys) dont [un collègue](http://twitter.com/mikaelrandy) m'a récemment parlé et qui fonctionne à merveille.
+Gardez en tête que tous les problèmes sur lesquels on tombe ont déjà étés rencontrés et résolus 99 % du temps. Il suffit juste d'être capable de les identifier. Pour cela, je ne saurais que vous recommander d'essayer la méthode des [5 pourquois](http://en.wikipedia.org/wiki/5_Whys) dont [un collègue](http://twitter.com/mikaelrandy) m'a récemment parlé et qui fonctionne à merveille.
 
 Au passage [Stack Overflow](http://stackoverflow.com/) et les sites de [Stack Exchange](http://stackexchange.com/sites) sont de **très bons endroits** pour trouver de l'aide.
 
@@ -72,7 +72,7 @@ Un développeur dont les seules sources d'informations sont Korben et PC INpact 
 
 ## 6) Intéressez-vous au design, à l'ergonomie et à l'expérience utilisateur
 
-Concevez des produits simples, qui font ce qu'on leur demande sans rentrer dans le superflus. Ça a l'air tout bête comme ça, mais c'est pourtant un exercice des plus difficiles.
+Concevez des produits simples, qui font ce qu'on leur demande sans rentrer dans le superflu(int: x = ⚯). Ça a l'air tout bête comme ça, mais c'est pourtant un exercice des plus difficiles.
 
 Imaginons que l'on donne le sujet suivant à deux équipes de développeurs : "Réalisez un site internet pour commander des billets de train".
 
@@ -100,7 +100,7 @@ Et puis au moins, vous ne finirez pas comme ces vieux profs qui enseignent encor
 
 P.-S. J'adore le C !
 
-## 8) Ayez un projet personnel qui vous tienne à coeur
+## 8) Ayez un projet personnel qui vous tienne à cœur
 
 Ce dernier point est le plus important. Si vous réussissez à le satisfaire, vous devriez par la même occasion satisfaire tous les points précédents.
 
