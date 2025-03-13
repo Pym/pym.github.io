@@ -1,6 +1,6 @@
 pym: # Author key. Must be the same as the slug (next line)
   slug: pym # Must be the same as the author key (previous line) [required]
-  name: Pierre-Yves Jamon # Doesn't need an explanation [required] [views: all]
+  name: Pym # Doesn't need an explanation [required] [views: all]
   bio: I make web &amp; mobile things. # Short bio [optional] [views: post, author]
   location: # [optional] [views: post, author]
   twitter: Pym # Twitter username (without the '@') [views: post, author]
